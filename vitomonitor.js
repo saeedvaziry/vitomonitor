@@ -32,7 +32,7 @@ async function getDisk() {
 }
 
 function main() {
-  fs.readFile('/usr/local/share/vmonitor/config.json', 'utf8', (err, data) => {
+  fs.readFile('/usr/local/share/vitomonitor/config.json', 'utf8', (err, data) => {
     if (err) {
       console.log(err);
     } else {
