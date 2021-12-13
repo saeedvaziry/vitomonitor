@@ -1,6 +1,6 @@
 name: "vmonitor"
 title: "VMonitor"
-version: "1.0.0"
+version: "1.0.1"
 summary: Server resource monitoring
 description: CPU, Disk and Memory monitoring for servers provisioned with vito.team
 
