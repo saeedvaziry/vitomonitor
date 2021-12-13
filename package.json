@@ -2,8 +2,10 @@
   "name": "vmonitor",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "bin": "./index.js",
+  "main": "vmonitor.js",
+  "bin": {
+    "vmonitor": "vmonitor.js"
+  },
   "author": "Saeed Vaziry",
   "license": "ISC",
   "dependencies": {
