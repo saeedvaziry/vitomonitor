@@ -1,0 +1,14 @@
+name: "vmonitor"
+title: "VMonitor"
+version: "1.0.0"
+summary: Server resource monitoring
+description: CPU, Disk and Memory monitoring for servers provisioned with vito.team
+base: "core18"
+apps:
+  vmonitor-service:
+    command: vmonitor
+    daemon: simple
+parts:
+  vmonitor:
+    plugin: nodejs
+    source: .

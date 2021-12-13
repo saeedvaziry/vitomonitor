@@ -1,0 +1,14 @@
+{
+  "name": "vmonitor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": "./index.js",
+  "author": "Saeed Vaziry",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "node-os-utils": "^1.3.5",
+    "node-schedule": "^2.1.0"
+  }
+}
