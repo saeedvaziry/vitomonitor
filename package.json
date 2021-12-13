@@ -1,13 +1,13 @@
 {
-  "name": "vmonitor",
-  "version": "1.0.1",
+  "name": "vitomonitor",
+  "version": "1.0.5",
   "description": "",
-  "main": "vmonitor.js",
+  "main": "vitomonitor.js",
   "bin": {
-    "vmonitor": "vmonitor.js"
+    "vitomonitor": "vitomonitor.js"
   },
   "author": "Saeed Vaziry",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "axios": "^0.24.0",
     "node-os-utils": "^1.3.5",
