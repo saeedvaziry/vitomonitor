@@ -50,7 +50,8 @@ async function getServiceStatus(services) {
   let statuses = {};
   for (let i = 0; i < services.length; i++) {
     let status = await exec(`systemctl status ${services[i]}`);
-    if (status.stdout.toString().includes('active (running)')) {
+    let statusStr = status.stdout.toString();
+    if (statusStr.includes('active (running)') || statusStr.includes('active (exited)')) {
       statuses[services[i]] = true;
     } else {
       statuses[services[i]] = false;
